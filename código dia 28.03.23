@@ -1,0 +1,52 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : elabora um algorismo para recever dois inteiros como entrada
+//do teclado e escreva na tela :
+// a media, a soma, o produto, o menor valor e o maior valor.
+// usando uma linha para cada resultado.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2023
+Var
+// Seção de Declarações das variáveis 
+media, soma, produto, menor, maior: real
+numero1, numero2: inteiro
+iguais  : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreva( " primeiro numero : " )
+ leia ( numero1 )
+
+escreva ( " segundo numero :  " )
+ leia ( numero2 )
+
+soma <- numero1 + numero2
+
+media <-( numero1 + numero2) / 2
+
+produto<- numero1 * numero2
+
+
+se numero1 > numero2 entao
+ escreval ( " maior N° é: ", numero1 )
+senao
+ escreval ( " maior N° é: ", numero2)
+
+
+ fimse
+
+se numero1 < numero2 entao
+ escreval ( " menor N° é: ", numero1 )
+senao
+ escreval ( " menor N° é: ", numero2)
+
+fimse
+
+se  numero1 = numero2 entao
+ escreval ( " são numeros iguais " )
+
+fimse
+
+
+Fimalgoritmo
