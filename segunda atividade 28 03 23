@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : elabore um algoritimo para recver o login e a senha de um
+// usuário.    bem vindos, invalido.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2023
+Var
+// Seção de Declarações das variáveis 
+
+usuario:caracter
+senha: caracter
+
+usuariocorreto : caracter
+senhacorreta   : caracter
+
+Inicio
+// USUARIO E SENHA  NO BANCO DE DADOS
+ usuariocorreto <- "victor"
+ senhacorreta <- "123"
+
+ // COMANDO QUE PARA PEDIR A USUARIO E SENHA.
+
+escreva ( " digite o usuario" )
+  leia ( usuario )
+  
+escreva ( " digite a senha " )
+  leia ( senha )
+//comparando se a senha e usuario estão correta
+
+se ( usuariocorreto = usuario ) e ( senhacorreta = senha ) entao
+  escreva ( "Bem vindo! ")
+  senao
+  escreva ( " invalido " )
+
+fimse
