@@ -1,0 +1,30 @@
+Algoritmo "Verificação de Aposentadoria"
+// Este programa verifica se um empregado está qualificado para a aposentadoria
+
+Var
+codigo, anoNasc, tempoTrabalho, idade: Inteiro
+
+Inicio
+Escreva("Digite o código do empregado:")
+Leia(codigo)
+
+Escreva("Digite o ano de nascimento do empregado:")
+Leia(anoNasc)
+
+Escreva("Digite o tempo de trabalho em anos do empregado:")
+Leia(tempoTrabalho)
+
+limpatela
+
+idade <- 2023 - anoNasc
+  Escreval("Código do empregado: ", codigo)
+  Escreval("Idade: ", idade, " anos")
+  Escreval("Tempo de trabalho: ", tempoTrabalho, " anos")
+ 
+Se (idade >= 65) OU (tempoTrabalho >= 30) Então
+  Escreval("Requerer aposentadoria")
+Senão
+  Escreval("Não requerer aposentadoria")
+FimSe
+
+FimAlgoritmo
