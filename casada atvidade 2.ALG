@@ -1,0 +1,45 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Faça um algoritmo que leia o nome, o sexo e o
+//estado civil de uma pessoa. Caso sexo seja “F” e
+//estado civil seja “CASADA”, solicitar o tempo de casada (anos).
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/03/2023
+
+
+Var
+// Seção de Declarações das variáveis 
+ nome, sexo, estadocivil, tempocasada: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreva (" nome ")
+   leia (nome)
+
+  escreva ("sexo")
+   leia (sexo)
+   
+  escreva ("estado civil")
+   leia (estadocivil)
+   
+   limpatela
+   
+  se (sexo = "feminino" ) e (estadocivil  = "casada") entao
+
+ fimse
+ 
+  escreva ( "qual o seu tempo de casada " )
+  leia (tempocasada)
+  
+  escreval ( " este é seu nome", nome)
+
+  escreval (" este é seu sexo", sexo)
+
+  escreval (" este é seu estado civil", estadocivil)
+  
+  escreval ("este é seu tempo de casada", tempocasada)
+
+  
+  
+Fimalgoritmo
