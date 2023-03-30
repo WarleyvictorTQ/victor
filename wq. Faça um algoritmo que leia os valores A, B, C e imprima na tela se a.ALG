@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Faça um algoritmo que leia os valores A, B, C e imprima na
+//tela se a soma de A + B é menor que c
+//que C.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/03/2023
+
+
+// Faça um algoritmo que leia os valores A, B, C e imprima na tela se a
+// soma de A + B é menor que C.
+
+
+Var
+   // Seção de Declarações das variáveis
+   valorA,valorB,valorC: real
+   soma: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva ("escreva o valor A")
+   leia (valorA)
+
+   escreva ("escreva o valor B")
+   leia (valorB)
+
+   escreva ("escreva o valor C")
+   leia (valorC)
+
+   limpatela
+
+   soma <- ( valorA + valorB )
+
+   se (soma < valorC) entao
+
+      escreval (" a soma de a + b é menor que c " )
+   senao
+   escreval (" a soma é maior de C" )
+
+   fimse
+
+
+Fimalgoritmo
