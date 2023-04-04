@@ -1,0 +1,47 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : atividade 5 operação
+// Autor(a)    : Warley Victor
+// Data atual  : 04/04/2023
+
+
+var
+operacao:caractere
+resultado: real
+valor1, valor2: real
+
+inicio
+
+escreval("+,-,*,/")
+leia(operacao)
+
+escreval ("esreva um numero")
+ leia (valor1)
+
+ escreval ("escreva um numero")
+  leia (valor2)
+  
+se operacao = "+" entao
+ resultado <- valor1 + valor2
+ escreval(valor1, " + ", valor2, " é igual a: ",resultado)
+fimse
+
+se operacao = "-" entao
+ resultado <- valor1 - valor2
+escreval(valor1, " - ", valor2, " é igual a: ",resultado)
+fimse
+
+se operacao = "*" entao
+ resultado <- valor1 * valor2
+escreval( valor1, "*", valor2, " é igual a: ",resultado)
+fimse
+
+se operacao = "/" entao
+ resultado <- valor1 / valor2
+  escreval( valor1, "/", valor2, " é igual a: ", resultado)
+fimse
+
+  
+
+fimalgoritmo
