@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : ATV 03 - valores inteiros A e B
+// Autor(a)    : Nome WARLEY
+// Data atual  : 04/04/2023
+Var
+   A, B, C: Inteiro
+Inicio
+   Escreva("Digite o valor de A: ")
+   Leia(A)
+   Escreva("Digite o valor de B: ")
+   Leia(B)
+
+   Se A = B Então
+      C <- A + B
+   Senão
+      C <- A * B
+   FimSe
+
+   Escreva("O resultado é: ", C)
+FimAlgoritmo
