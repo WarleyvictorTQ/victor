@@ -1,0 +1,32 @@
+var
+  litros, preco, desconto, valor_total: real
+  combustivel: caractere
+
+inicio
+  escreva("Digite o número de litros vendidos: ")
+  leia(litros)
+  
+  escreva("Digite o tipo de combustível (A-álcool ou G-gasolina): ")
+  leia(combustivel)
+  
+  // verificar o preço correspondente ao tipo de combustível escolhido
+  se combustivel = "A" entao
+    preco <- 3.79
+  senao
+    preco <- 6.59
+  fimse
+  
+  // verificar o desconto correspondente ao número de litros vendidos
+  se litros <= 25 entao
+    desconto <- preco * 0.02
+  senao
+    desconto <- preco * 0.04
+  fimse
+  
+  // calcular o valor a ser pago pelo cliente
+  valor_total <- litros * preco - litros * desconto
+  
+  // exibir o valor a ser pago pelo cliente
+  escreva("O valor total a ser pago é R$ ")
+  escreva(valor_total, 2)
+fimalgoritmo
