@@ -1,0 +1,33 @@
+renda, valor_emprestimo, valor_prestacao: Real
+num_prestacoes, valor_max_emprestimo, valor_max_prestacao: Inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+Escreval("Informe a renda mensal do solicitante: ")
+Leia(renda)
+Escreval("Informe o valor total do empréstimo solicitado: ")
+Leia(valor_emprestimo)
+Escreval("Informe o número de prestações que o solicitante deseja pagar: ")
+Leia(num_prestacoes)
+
+valor_max_emprestimo <- Int(renda * 10)
+valor_max_prestacao <- Int(renda * 0.3)
+
+Se valor_emprestimo <= valor_max_emprestimo Entao
+valor_prestacao <- valor_emprestimo / num_prestacoes
+Se valor_prestacao <= valor_max_prestacao Entao
+   Escreval("Empréstimo concedido.")
+Senao
+   Escreval("Empréstimo não concedido. O valor da prestação (R$", valor_prestacao, ") excede 30% da renda
+mensal do solicitante (R$", renda, ").")
+fimse
+
+senao
+  Escreval("Empréstimo não concedido. O valor total do empréstimo solicitado (R$", valor_emprestimo, ")
+excede 10 vezes a renda mensal do solicitante (R$", renda, ").")
+FimSe
+
+
+Fimalgoritmo
