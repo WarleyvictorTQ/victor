@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : atv 08
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/04/2023
+
+
+Var
+   cor: caractere
+
+Inicio
+   Escreva("Insira a cor do CD: ")
+   Leia(cor)
+
+   Se (cor = "verde") Entao
+      Escreva("O preço é R$ 10,00")
+   fimse
+   Se (cor = "azul") Entao
+      Escreva("O preço é R$ 20,00")
+    fimse
+    Se (cor = "amarelo") Entao
+      Escreva("O preço é R$ 30,00")
+    fimse
+    Se (cor = "vermelho") Entao
+      Escreva("O preço é R$ 40,00")
+   fimse
+   fimalgoritmo
