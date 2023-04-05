@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : média do aluno ATV 06
+// Autor(a)    : Nome warley queiroz
+// Data atual  : 05/04/2023
+Var
+nota1, nota2, media : real
+inicio
+   escreva("Digite a primeira nota: ")
+   leia(nota1)
+   escreva("Digite a segunda nota: ")
+   leia(nota2)
+
+   media <- (nota1 + nota2) / 2
+
+   escreva("A média do aluno é: ", media)
+
+   se media >= 6.0 entao
+      escreva("Parabéns! O aluno está aprovado!")
+   senao
+      se media >= 4.0 entao
+         escreva("O aluno está em recuperação.")
+      senao
+         escreva("O aluno está reprovado.")
+      fimse
+   fimse
+fimalgoritmo
