@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/04/2023
+Var
+// Seção de Declarações das variáveis 
+media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval("escreva a média do aluno")
+   leia (media)
+ 
+   Enquanto (media <=0) ou (media > 10) Faca
+
+  escreval("Média inválida. Digite novamente: ")
+        Leia(media)
+
+    fimenquanto
+    
+Escreva("Média do aluno: ", media)
+
+Fimalgoritmo
